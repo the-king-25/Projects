@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="body">
+    <header class="header">
+        <div class="logo">
+            <img src="Logo.jpg" class="Main">
+            <p class="H1">Bharath <span class="H2">Kumar</span></p>
+        </div>  
+        <div class="menu-toggle">&#9776;</div>
+        <script>
+            document.querySelector('.menu-toggle').addEventListener('click', () => {
+                document.querySelector('.nav').classList.toggle('active');
+            });
+            </script>
+        <nav class="nav">  
+            <a href="#Home">Home</a>
+            <a href="#Education">Education</a>
+            <a href="#Skill">Skills</a>
+            <a href="#Services">Services</a>
+            <a href="#Contact">Content</a>
+        </nav>
+    </header>
+
+    <section id="Home" class="Home">
+        <div class="hi">
+            <p class="Name1">Hi,It's <span class="Name2"> Bharath</span></p>
+            <P class="Oc1">I'm a <span class="Oc2">Full Stack Developer</span></P>
+            <p class="Cotation">I have a personal philosophy in life: If somebody else can do something that I'm doing, they should do it. And what I want to do is find things that would represent a unique contribution to the world-the contribution that only I, and my portfolio of talents, can make happen. Those are my priorities in life.</p>
+            <div class="Links">
+                <img src="bxl-linkedin.png">
+                <img src="bxl-instagram.png">
+                <img src="bxl-github.png">
+                <img src="bxl-twitter.png">
+            </div>
+            <div class="switch">
+                <button>
+                    Hire
+                </button>
+                <button>
+                    Content
+                </button>
+            </div>
+        </div>
+        <div class="hi1">
+            <img src="Mainp.jpg" class="top"></img>
+        </div>
+    </section>
+
+    <section id="Education" class="education">
+        <h class="sec1">Education</h>
+    </section>
+    <div class="ed1">
+        <div class="sch">
+            <p class="sch1"> School</p>
+            <p class="sch2">Zilla Parisuth High School Murapaka</p>
+            <p class="sch3">“Labor Day is a glorious holiday because your child will be going back to school the next day. It would have been called Independence Day, but that name was already taken.” – Bill Dodds</p>
+            <p class="sch4">2000 - 2000</p>
+        </div>
+        <div class="sch">
+            <p class="sch1"> Inter</p>
+            <p class="sch2">Sree Ram Junior College Garividi</p>
+            <p class="sch3">"Don't judge a book by its cover. My math book has a picture of someone enjoying themselves on it, but I am not enjoying myself at all."</p>
+            <p class="sch4">2000 - 2000</p>
+        </div>
+        <div class="sch">
+            <p class="sch1"> College</p>
+            <p class="sch2">Sri Aditya Degree College Bhimavaram</p>
+            <p class="sch3">“When one door closes, another opens; but we often look so long and so regretfully upon the closed door that we do not see the one which has opened for us.” — Alexander Graham Bell</p>
+            <p class="sch4">2000 - 2000</p>
+        </div>
+    </div>
+
+    
+
+    <section id="Skill" class="skill-section">
+        <h class="section-title">My Core Skill</h>
+    </section>
+    <div class="skill-item">
+        <div class="skill-header">
+            <span class="skill-name">Python</span>
+            <span class="skill-percent">85%</span>
+        </div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%"></div>
+        </div>
+    </div>
+
+    <div class="skill-item">
+        <div class="skill-header">
+            <span class="skill-name">Java</span>
+            <span class="skill-percent">60%</span>
+        </div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 60%"></div>
+        </div>
+    </div>
+
+    <div class="skill-item">
+        <div class="skill-header">
+            <span class="skill-name">HTML</span>
+            <span class="skill-percent">75%</span>
+        </div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 75%"></div>
+        </div>
+    </div>
+
+    <div class="skill-item">
+        <div class="skill-header">
+            <span class="skill-name">CSS</span>
+            <span class="skill-percent">95%</span>
+        </div>
+        <div class="progress-bar">
+            <div class="progress" style="width: 95%"></div>
+        </div>
+    </div>
+
+    <section id="Services" class="serv">
+        <h class="serv-title">Services</h>
+    </section>
+    <div class="Services">
+        <div class="ser1">
+            <h>User Interface</h>
+            <p class="ser1p2">Zilla Parisuth High School Murapaka</p>
+        </div>
+        <div class="ser1">
+            <h>Front End</h>
+            <p class="ser1p2">Zilla Parisuth High School Murapaka</p>
+        </div>
+    </div>
+    <div class="Services">
+        <div class="ser1">
+            <h>Back End</h>
+            <p class="ser1p2">Zilla Parisuth High School Murapaka</p>
+        </div>
+        <div class="ser1">
+            <h>Android Development</h>
+            <p class="ser1p2">Zilla Parisuth High School Murapaka</p>
+        </div>
+    </div>
+
+    <section id="Contact" class="con">
+        <h class="con-title">Contct Me</h>
+    </section>
+    <div class="contact">
+        <div class="holder1">
+            <input type="text" class="holcon" placeholder="Name">
+            <input type="text" class="holcon" placeholder="Email Address">
+            <input type="text" class="holcon" placeholder="Phone Number">
+            <input type="text" class="holcon" placeholder="Subject">
+        </div>
+        <div class="holder2">
+            <textarea class="con2p1" placeholder="Message"></textarea>
+            <button class="con2p2">Send Message</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="fot-links">
+            <img src="bxl-linkedin.png">
+            <img src="bxl-instagram.png">
+            <img src="bxl-github.png">
+            <img src="bxl-twitter.png">
+        </div>
+        <div class="footer-links">
+            <a href="#Home">Home</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#content">Content</a>
+        </div > 
+    </div>
+    <div class="blur">
+        <p class="footer-text">© 2023 Bharath Kumar. All rights reserved.</p> 
+    </div>
+</body>
+</html>

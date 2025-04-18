@@ -1,0 +1,1042 @@
+html{
+    scroll-behavior:  smooth;
+}
+.body {
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.header {
+    background-color: rgb(144, 119, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 1000;
+    box-shadow: 0 0 20px white, 0 0 20px white, 0 0 10px white;
+    box-sizing: border-box;
+    transition: 0.6s;
+}
+.header:hover{
+    box-shadow: 0 0 20px white, 0 0 20px white, 0 0 10px white;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-right: 150px;
+    gap: 30px;
+    font-weight: 600;
+}
+
+.nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.6s;
+    padding: 10px;
+}
+
+.nav a:hover {
+    margin: -20px;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+
+.logo {
+    font-size:35px;
+    font-weight: 900;
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.logo .Main{
+    transition: 0.3s;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+.logo .Main:hover{
+    box-shadow: 0 0 20px white, 0 0 20px white, 0 0 10px white;
+}
+
+.logo .H1:hover{
+    color:whitesmoke;
+}
+
+.logo .H1 {
+    color:rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+.logo .H2:hover{
+    color:  whitesmoke;
+}
+
+.logo .H2 {
+    transition: 0.6s;
+    color: rgb(201, 181, 255);
+}
+
+
+
+.Home {
+    font-family: sans-serif;
+    padding-top: 180px;
+    display: flex;
+
+}
+.Home .hi{
+    padding-left:150px;
+    color: rgb(0, 0, 0);
+}
+
+.Home hi Name{
+    color: rgb(0, 0, 0);
+    font-size: 0cap;
+    font-weight: 900px;
+}
+
+.Home .hi1{
+    padding:40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.Home .hi .Name1 {
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    font-size: 9vmin; 
+    transition: 0.3s;
+  }
+
+.Home .hi .Name1:hover{
+    font-size: 10vmin;
+}
+
+.Home .hi .Name2 {
+    color:rgb(201, 181, 255);
+    font-family: 'Arial', sans-serif;
+    font-size: 9vmin; 
+    transition: 0.6s;
+  }
+
+.Home .hi .Name2:hover{
+    font-size: 10vmin;
+}
+
+.Home .hi .Oc1 {
+    font-size:x-large;
+    color:rgb(0, 0, 0);
+    font-family: 'Arial', sans-serif;
+  }
+
+.Home .hi .Oc2 {
+    font-size:x-large;
+    color:whitesmoke;
+    font-family: 'Arial', sans-serif;
+  }
+.Home .hi1 img{
+    width: 500px;
+    border-radius: 800px;
+    box-shadow: 0 0 20px white, 0 0 20px white, 0 0 10px white;
+    margin-right: 90px;
+    margin-left: 50px;
+    transition: 0.3s;
+}
+
+.Home .hi1 img:hover{
+    box-shadow:  0 0 20px rgb(144, 119, 255), 0 0 40px rgb(144, 119, 255), 0 0 40px rgb(144, 119, 255);
+    cursor: pointer;
+}
+.Home .hi .Links img {
+    width: 30px; 
+    height: 30px;
+    transition:0.3s;
+    border-radius: 50%; 
+    padding: 5px;
+    background:rgb(144, 119, 255);
+    box-shadow: 0 0 20px white, 0 0 20px white, 0 0 10px white;
+    margin: 10px;
+  }
+
+.Home .hi .Links img:hover {
+    cursor: pointer;
+    box-shadow:  0 0 20px #000000, 0 0 20px#000000, 0 0 10px#000000;
+  }
+
+.Home .hi .switch button {
+    color: rgb(255, 255, 255);
+    box-shadow:  0 0 20px rgb(144, 119, 255), 0 0 20px rgb(144, 119, 255), 0 0 40px rgb(144, 119, 255);
+    background-color:rgb(144, 119, 255);
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    font-family: sans-serif;
+    font-size: large;
+    margin-right: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Home .hi .switch button:hover {
+    background-color:rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+}
+
+
+
+.education{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.sec1 {
+    font-size: 10vmin;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(144, 119, 255);;
+    margin: 30px;
+    transition: 0.3s;
+}
+.sec1:hover {
+    font-size: 12vmin;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    margin: 21px;
+}
+
+.ed1{
+    margin-top: 50px;
+    height: 250px;
+    margin-bottom:500px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.ed1 .sch{
+    font-family:sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 1px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color:rgb(144, 119, 255) ;
+    box-shadow:   0 0 20px rgb(201, 181, 255), 0 0 30px rgb(144, 119, 255), 0 0 10px rgb(144, 119, 255);
+    border-radius: 25px;
+    transition: 0.3s;
+    margin-bottom: 40px;
+}
+.ed1 .sch:hover{
+    box-shadow:   0 0 20px rgb(144, 119, 255), 0 0 40px rgb(201, 181, 255), 0 0 10px rgb(144, 119, 255);
+    background-color: rgb(201, 181, 255);
+}    
+.ed1 .sch .sch1{
+    color:whitesmoke;
+    font-size:3ch;
+    font-weight:bolder;
+    transition: 0.6s;
+}
+
+.ed1 .sch .sch2{
+    color: rgb(0, 0, 0);
+    font-size:small;
+    font-weight:lighter;
+}
+.ed1 .sch .sch3{
+    color: rgb(0, 0, 0);
+    font-size:small;
+    font-weight:lighter;
+}
+.ed1 .sch .sch4{
+    color: rgb(0, 0, 0);
+    font-size:small;
+    font-weight:lighter;
+}
+
+
+
+.skill-section{
+    font-family: sans-serif;
+    margin-top: 120px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 60px;
+    transition: 0.6s;
+}
+.skill-section .section-title{
+    font-size:10vmin;
+    font-weight:bolder;
+    color:rgb(144, 119, 255);
+    transition: 0.6s;
+}
+.skill-section .section-title:hover{
+    color: rgb(0, 0, 0);
+    font-size:11vmin;
+}
+.skill-section:hover{
+    margin-top: 120px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.skill-item{
+    font-family: sans-serif;
+    font-style:inherit;
+    font-weight: 600;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 30px;
+}
+.skill-item .skill-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.progress-bar {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 10px;
+    background-color: rgb(201, 181, 255);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.progress-bar:hover{
+    box-shadow:   0 0 20px rgb(144, 119, 255), 0 0 40px rgb(201, 181, 255), 0 0 10px rgb(144, 119, 255);
+    cursor: pointer;
+    height: 15px;
+    margin-bottom: 12.5px;
+    margin-top: 12.5px;
+}
+.progress {
+    height: 100%;
+    background-color:rgb(144, 119, 255);
+    border-radius: 8px;
+    transition: width 0.5s ease-in-out;
+}
+
+
+.serv {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 10vmin;
+    margin-left: 150px;
+    color:rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: 900;
+    transition: all 0.6s; 
+}
+
+.serv:hover { 
+    color:rgb(144, 119, 255);
+    margin-top: 95px;
+    margin-bottom: 45px;
+    font-size: 11vmin;
+}
+
+.Services{
+    display: flex;
+    gap: 5%;
+    width: 80%;
+    align-items: center;
+    font-family:sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.Services .ser1{
+    margin-bottom: 60px;
+    height: 150px;
+    width: 80%;
+    padding-top: 15px;
+    border-radius:35px ;
+    background-color:  rgb(201, 181, 255);
+    padding-left: 20px;
+    transition: 0.6s;
+    background-color:rgb(144, 119, 255);
+    border: 4px solid  whitesmoke;
+    color: whitesmoke;
+    box-shadow:   0 0 20px rgb(201, 181, 255), 0 0 30px rgb(144, 119, 255), 0 0 10px rgb(144, 119, 255);
+}
+.Services .ser1:hover{
+    background-color:  rgb(201, 181, 255);
+    box-shadow:   0 0 20px rgb(144, 119, 255), 0 0 40px rgb(201, 181, 255), 0 0 10px rgb(144, 119, 255);
+}
+.Services .ser1 .cont{
+    display: flex;
+    align-items: center;
+}
+
+.Services .ser1 h{
+    font-size: 25px;
+    font-weight: 900;
+}
+.Services .ser1 p{
+    font-size: 13px;
+}
+
+
+
+.con{
+    margin-bottom: 50px;
+}
+.con .con-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 10vmin;
+    margin-left: 150px;
+    color: #000000;
+    font-family: sans-serif;
+    font-weight: 900;
+    transition: all 0.6s; 
+}
+.con .con-title:hover { 
+    color: rgb(144, 119, 255);
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.contact .holder1,
+.contact .holder2 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    transition: 0.6s;
+}
+
+.contact .holder1 .holcon {
+    height: 75px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(144, 119, 255);
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 30px;
+    transition: 0.6s;
+}
+
+.contact .holder1 .holcon:hover {
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.contact .holder2 .con2p1 {
+    height: 240px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    transition: 0.6s;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(144, 119, 255);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 30px;
+}
+
+.contact .holder2 .con2p1:hover {
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+    cursor: pointer;
+}
+.contact .holder2 .con2p2{
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 70px;
+    height: 60px;
+    background-color:rgb(144, 119, 255);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight:bolder;
+    border-radius: 40px;
+    border: 2px solid rgb(144, 119, 255);
+    transition: 0.6s;
+    box-shadow:   0 0 20px rgb(144, 119, 255), 0 0 40px rgb(201, 181, 255), 0 0 10px rgb(144, 119, 255);
+}
+.contact .holder2 .con2p2:hover{
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+    cursor: pointer; 
+    background-color: rgb(0, 0, 0);
+}
+
+.footer{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+.footer .fot-links img{
+    transition: 0.6s;
+    display: inline;
+    margin: 10px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color:rgb(144, 119, 255);
+    gap: 80px;
+}
+.footer .fot-links img:hover{
+    box-shadow: 0 0 20px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0);
+}
+.footer .footer-links{
+    margin-top: 20px;
+}
+.footer .footer-links a{
+    font-family:sans-serif;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin: 40px;
+    text-decoration: none;
+    transition: 0.6s;
+}
+.footer .footer-links a:hover{
+    color: rgb(144, 119, 255);;
+    text-decoration: underline;
+}
+.blur .footer-text{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    font-family:sans-serif;
+    justify-content: center;
+    background-color: rgb(201, 181, 255);
+    font-size: small;
+    color: rgb(0, 0, 0);
+}
+
+/* Mobile menu styling */  /* Mobile menu styling *//* Mobile menu styling *//* Mobile menu styling *//* Mobile menu styling */
+
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+    padding: 15px 20px; 
+    z-index: 1000;
+    transition: 0.6s;
+    box-sizing: border-box;
+}
+
+
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+}
+
+
+@media (max-width: 768px) {
+    .nav {
+        position: fixed;
+        background-color: #000000;
+        top: 135px;
+        left: 0;
+        width: 100px;
+        height: calc(100vh - 60px);
+        flex-direction: column;
+        transform: translateX(-100%);
+        padding: 20px;
+        box-sizing:content-box;
+        height: 320px;
+        border-radius: 10px; 
+    }
+    
+    .nav.active {
+        transform: translateX(0);
+    }
+    
+    .menu-toggle {
+        display: block;
+    }
+    
+    .logo {
+        padding-left: 0 !important;
+    }
+    
+    .nav a {
+        padding: 15px 0;
+        text-align:center;
+        width: 100%;
+    }
+}
+
+.logo .Main {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    transition: 0.6s;
+    padding: 10px;
+}
+
+
+
+.Home {
+    font-family: sans-serif;
+    padding-top: 100px; 
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 0 5%;
+}
+
+.Home .hi {
+    padding-left: 10%; 
+    flex: 1 1 45%; 
+    min-width: 300px; 
+}
+
+.Home .hi1 {
+    padding: 40px 20px;
+    flex: 1 1 45%; 
+}
+
+.Home .hi .Name1,
+.Home .hi .Name2 {
+    font-size: 9vmin;
+    transition: 0.3s;
+}
+
+.Home .hi1 img {
+    width: 80%; 
+    max-width: 600px; 
+    border-radius: 50%; 
+    margin: 10px auto 20px; 
+}
+
+.Home .hi .Links img {
+    width: 6vmin;
+    height: 6vmin;
+    margin: 5px; 
+}
+
+.Home .hi .switch button {
+    padding: 15px 30px; 
+    font-size: 2vmin;
+    margin: 20px auto 0;
+}
+
+
+@media (max-width: 768px) {
+    .Home {
+        margin-top: 150px;
+        padding-top: 60px; /* Below mobile header [[5]] */
+        padding: 05%; /* Mobile side padding [[3]] */
+    }
+    
+    .Home .hi { /* Remove fixed padding [[3]] */
+        flex: 1 1 100%; /* Full-width on mobile [[5]] */
+        min-width: auto;
+    }
+    
+    .Home .hi1 {
+        flex: 1 1 100%; /* Full-width on mobile [[5]] */
+        padding: 20px 0;
+        margin-left: 30px; /* Reduced mobile spacing [[1]] */
+    }
+    
+    .Home .hi .Name1,
+    .Home .hi .Name2 {
+        font-size: 10vmin; /* Larger mobile text [[9]] */
+    }
+    
+    .Home .hi1 img {
+        width: 90%; /* Larger mobile image [[6]] */
+        max-width: 400px; /* Mobile max size [[9]] */
+        margin-left:20px; /* Reduced spacing [[10]] */
+    }
+    
+    .Home .hi .Links img {
+        width: 8vmin; /* Larger touch targets [[3]] */
+        height: 8vmin;
+        margin-bottom: 30px;
+    }
+    
+    .Home .hi .switch button {
+        width: 90%; /* Full-width mobile button [[5]] */
+        max-width: 300px; /* Mobile max size [[9]] */
+        font-size: 4vmin; /* Responsive text [[9]] */
+        margin: 15px; /* Adjusted spacing [[10]] */
+    }
+    
+    /* Menu integration */
+    .nav.active + .Home {
+        margin-top: 250px; /* Space for open menu [[6]] */
+    }
+}
+
+/* Laptop-specific optimizations */
+@media (min-width: 769px) and (max-width: 1440px) {
+    .Home{
+        margin-top: 150px;
+    }
+    
+    .Home .hi {
+        padding-left: 5%; /* Reduced laptop padding [[3]] */
+    }
+    
+    .Home .hi1 img {
+        margin-left: 100px;
+        max-width: 500px; /* Laptop size adjustment [[9]] */
+    }
+    
+    .Home .hi .switch button {
+        margin-right: 20px; 
+        padding-top: 12px;/* Fixed size for better readability [[9]] */
+    }
+    .Home .hi .Links img{
+        height: 30px;
+        width: 30px;
+    }
+}
+
+
+/* Fixed size for better readability [[9]] *//* Fixed size for better readability [[9]] *//* Fixed size for better readability [[9]] *//* Fixed size for better readability [[9]] */
+
+
+
+.education {
+    margin-left: 120px; /* Desktop [[3]] */
+    margin-top: 50px;
+}
+
+.sec1 {
+    font-size: 10vmin;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+    transition: 0.6s;
+}
+
+.ed1 {
+    margin-top: 50px;
+    height: auto; /* Changed from fixed 250px [[6]] */
+    margin-bottom: 100px; /* Reduced from 500px [[10]] */
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.ed1 .sch {
+    font-family: sans-serif;
+    border-radius: 25px;
+    transition: 0.6s;
+    margin-bottom: 40px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .education {
+        margin-left: 30px; /* Mobile-friendly [[3]] */
+        margin-top:0px;
+    }
+    
+    .sec1 {
+        font-size: 8vmin; /* Smaller text for mobile [[9]] */
+        margin: 15px; /* Reduced spacing [[4]] */
+    }
+    
+    .sec1:hover {
+        font-size: 9vmin; /* Less drastic change [[9]] */
+        margin: 10px;
+    }
+    
+    .ed1 {
+        margin-left: 40px; /* Mobile side margins [[5]] */
+        margin-right: 20px;
+        margin-bottom: 50px; /* Reduced spacing [[10]] */
+    }
+    
+    .ed1 .sch {
+        padding: 20px; /* Smaller touch-friendly padding [[3]] */
+    }
+    
+    .ed1 .sch .sch1 {
+        font-size: 2.5ch; /* Responsive text [[9]] */
+    }
+}
+
+/* Laptop optimizations */
+@media (min-width: 769px) and (max-width: 1440px) {
+    .education {
+        margin-left: 120px; /* Reduced from 120px [[3]] */
+    }
+    
+    .ed1 {
+        margin-left: 150px; /* Reduced from 150px [[5]] */
+        margin-right: 200px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .skill-section {
+        margin: 60px 40px 30px; /* Reduced margins [[1]] */
+        font-size: 7vmin; /* Responsive text [[9]] */
+    }
+
+    .skill-section:hover {
+        margin: 30px 30px 25px;
+        font-size: 8vmin;
+    }
+
+    .skill-item {
+        margin: 0 40px; /* Reduced side margins [[3]] */
+        font-size: 4vmin; /* Responsive text [[9]] */
+    }
+
+    .progress-bar {
+        margin: 10px 0; /* Reduced spacing [[10]] */
+    }
+
+    .progress-bar:hover {
+        height: 12px;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .skill-section {
+        margin-top: 40px; /* Further reduced for small mobile [[7]] */
+    }
+
+    .skill-item {
+        font-size: 5vmin; /* Adjusted for smaller screens [[9]] */
+    }
+}
+
+/* Existing laptop styles remain unchanged */
+
+@media (max-width: 768px) {
+    .serv {
+        margin-left: 40px; /* Reduced from 150px [[3]] */
+        margin-right: 20px;
+        font-size: 12vmin; /* Responsive text [[7]] */
+    }
+    
+    .serv:hover {
+        margin-top: 95px;
+        margin-bottom: 45px;
+        font-size: 13vmin; /* Smaller increase [[9]] */
+    }
+    
+    .Services {
+        flex-direction: column; /* Vertical stack [[5]] */
+        width: 100%; /* Full width [[6]] */
+        gap: 0px; /* Reduced spacing [[3]] */ /* Mobile-friendly margins [[6]] */
+        margin-right: 40px;
+        margin-left: 60px;
+    }
+    
+    .Services .ser1 {
+        width: 100%; /* Full-width cards [[5]] */
+        height: auto; /* Flexible height [[6]] */
+        border-radius: 20px; /* Smaller radius for mobile [[9]] */
+        padding: 20px; /* Touch-friendly padding [[8]] */
+    }
+    
+    .Services .ser1 h {
+        font-size: 5vmin; /* Responsive heading [[7]] */
+    }
+    
+    .Services .ser1 p {
+        font-size: 3vmin; /* Responsive text [[7]] */
+    }
+    
+    .Services .ser1 .cont {
+        flex-direction: column; /* Stack content vertically [[5]] */
+        align-items: flex-start;
+        gap: 10px; /* Improved touch spacing [[3]] */
+    }
+}
+
+
+/* Reduced from 100px [[6]] *//* Reduced from 100px [[6]] *//* Reduced from 100px [[6]] */
+
+
+.con {
+    margin-bottom: 50px;
+}
+
+.con-title { /* Vertical spacing only [[5]] */
+    font-size: 11vmin; /* Responsive text [[9]] */
+    color: black; /* Mobile-friendly [[3]] */
+    transition: 0.3s;
+    margin-left: -100px;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on small screens [[5]] */
+    margin: 0 5%; /* Responsive margins [[3]] */
+    font-family: sans-serif;
+}
+
+.contact .holder1,
+.contact .holder2 {
+    flex: 1 1 45%; /* Laptop column layout [[5]] */
+    min-width: 300px; /* Minimum width for usability [[9]] */
+}
+
+.holder1 .holcon {
+    height: 60px; /* Increased touch target [[8]] */
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    font-size: 16px; /* Readable size [[1]] */
+}
+
+.holder2 .con2p1 {
+    height: auto; /* Flexible height [[6]] */
+    min-height: 200px;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.holder2 .con2p2 {
+    margin-left: 150px;
+    margin-left: 150px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+    .con {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: -90px;
+        font-size: 11vmin;
+    }
+    .con-title{
+        font-size: vmin; /* Larger mobile text [[9]] */
+        padding-left: 0; /* Full-width titles [[3]] */
+    }
+    
+    .contact {
+        flex-direction:row; /* Vertical stack [[5]] */
+    }
+    
+    .contact .holder1,
+    .contact .holder2 {
+        flex: 1 1 100%; /* Full-width on mobile [[5]] */
+        margin-left: 40px;
+    }
+    
+    .holder1 .holcon {
+        height: 70px; /* Larger touch target [[8]] */
+        font-size: 18px;
+    }
+    
+    .holder2 .con2p1 {
+        min-height: 150px;
+        font-size: 16px;
+    }
+    
+    .holder2 .con2p2 {
+        width: 100%;
+        max-width: 400px; /* Reasonable mobile size [[9]] */
+    }
+}
+
+/* Laptop optimizations */
+@media (min-width: 769px) and (max-width: 1440px) {
+        .holder1 .holcon {
+        margin-left:80px;
+        height: 65px;
+        font-size: 18px;
+    }
+    
+    .holder2 .con2p1 {
+        min-height: 220px;
+        margin-right:80px;
+        font-size: 18px;
+    }
+}
+
+.footer .footer-links {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on small screens [[5]] */
+    justify-content: center; /* Center-aligned for mobile [[3]] */
+    gap: 20px; /* Consistent spacing [[2]] */
+}
+
+.footer .footer-links a {
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 15px; /* Touch target ≥48px [[6]] */
+    transition: 0.3s;
+    margin: 0; /* Removed fixed margins [[4]] */
+    font-size: 14px; /* Minimum readable size [[8]] */
+}
+
+.footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .footer .footer-links {
+        gap: 15px; /* Reduced spacing [[2]] */
+        padding: 0 10px; /* Edge padding [[3]] */
+    }
+    
+    .footer .footer-links a {
+        font-size: 16px; /* Larger mobile text [[4]] */
+        padding: 12px 18px; /* 60px touch target [[6]] */
+    }
+}
